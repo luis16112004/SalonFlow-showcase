@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" width="920" height="400" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748B"/>
+    </marker>
+  </defs>
+
+  <!-- Fondo propio para que se lea igual en tema claro y oscuro de GitHub -->
+  <rect x="0" y="0" width="920" height="400" rx="16" fill="#F8FAFC" stroke="#E2E8F0"/>
+
+  <rect x="20" y="20" width="260" height="360" rx="14" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="38" y="50" font-size="14.5" font-weight="700" fill="#0F172A">Navegador · React</text>
+  <g font-size="13">
+    <rect x="38" y="72" width="224" height="58" rx="10" fill="#F0FDFA" stroke="#14B8A6"/>
+    <text x="150" y="96" text-anchor="middle" font-weight="600" fill="#134E4A">Página de reservas</text>
+    <text x="150" y="115" text-anchor="middle" font-size="11.5" fill="#0F766E">la clienta agenda desde el celular</text>
+    <rect x="38" y="148" width="224" height="58" rx="10" fill="#F0FDFA" stroke="#14B8A6"/>
+    <text x="150" y="172" text-anchor="middle" font-weight="600" fill="#134E4A">Mi cita</text>
+    <text x="150" y="191" text-anchor="middle" font-size="11.5" fill="#0F766E">consultar o cancelar con un enlace</text>
+    <rect x="38" y="224" width="224" height="58" rx="10" fill="#F0FDFA" stroke="#14B8A6"/>
+    <text x="150" y="248" text-anchor="middle" font-weight="600" fill="#134E4A">Panel del salón</text>
+    <text x="150" y="267" text-anchor="middle" font-size="11.5" fill="#0F766E">agenda · clientes · métricas</text>
+    <rect x="38" y="300" width="224" height="58" rx="10" fill="#F0FDFA" stroke="#14B8A6"/>
+    <text x="150" y="324" text-anchor="middle" font-weight="600" fill="#134E4A">Configuración</text>
+    <text x="150" y="343" text-anchor="middle" font-size="11.5" fill="#0F766E">estilistas · servicios · horarios</text>
+  </g>
+
+  <rect x="330" y="20" width="260" height="360" rx="14" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="348" y="50" font-size="14.5" font-weight="700" fill="#0F172A">API · Node.js + Express</text>
+  <g font-size="13">
+    <rect x="348" y="72" width="224" height="58" rx="10" fill="#EEF2FF" stroke="#6366F1"/>
+    <text x="460" y="96" text-anchor="middle" font-weight="600" fill="#312E81">Rutas públicas</text>
+    <text x="460" y="115" text-anchor="middle" font-size="11.5" fill="#4338CA">límite de peticiones · Zod</text>
+    <rect x="348" y="148" width="224" height="58" rx="10" fill="#EEF2FF" stroke="#6366F1"/>
+    <text x="460" y="172" text-anchor="middle" font-weight="600" fill="#312E81">Rutas del panel</text>
+    <text x="460" y="191" text-anchor="middle" font-size="11.5" fill="#4338CA">sesión con JWT por salón</text>
+    <rect x="348" y="224" width="224" height="58" rx="10" fill="#EEF2FF" stroke="#6366F1"/>
+    <text x="460" y="248" text-anchor="middle" font-weight="600" fill="#312E81">Disponibilidad</text>
+    <text x="460" y="267" text-anchor="middle" font-size="11.5" fill="#4338CA">horarios libres por estilista</text>
+    <rect x="348" y="300" width="224" height="58" rx="10" fill="#EEF2FF" stroke="#6366F1"/>
+    <text x="460" y="324" text-anchor="middle" font-weight="600" fill="#312E81">Tareas programadas</text>
+    <text x="460" y="343" text-anchor="middle" font-size="11.5" fill="#4338CA">node-cron · recordatorios</text>
+  </g>
+
+  <rect x="660" y="20" width="240" height="360" rx="14" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="678" y="50" font-size="14.5" font-weight="700" fill="#0F172A">Datos y servicios</text>
+  <g font-size="13">
+    <rect x="678" y="72" width="204" height="58" rx="10" fill="#FFF7ED" stroke="#F97316"/>
+    <text x="780" y="96" text-anchor="middle" font-weight="600" fill="#7C2D12">PostgreSQL</text>
+    <text x="780" y="115" text-anchor="middle" font-size="11.5" fill="#C2410C">Prisma ORM · varios salones</text>
+    <rect x="678" y="148" width="204" height="58" rx="10" fill="#FFF7ED" stroke="#F97316"/>
+    <text x="780" y="172" text-anchor="middle" font-weight="600" fill="#7C2D12">Resend</text>
+    <text x="780" y="191" text-anchor="middle" font-size="11.5" fill="#C2410C">correos con archivo de calendario</text>
+    <rect x="678" y="224" width="204" height="58" rx="10" fill="#FFF7ED" stroke="#F97316"/>
+    <text x="780" y="248" text-anchor="middle" font-weight="600" fill="#7C2D12">WhatsApp</text>
+    <text x="780" y="267" text-anchor="middle" font-size="11.5" fill="#C2410C">enlace wa.me · Twilio opcional</text>
+    <rect x="678" y="300" width="204" height="58" rx="10" fill="#FFF7ED" stroke="#F97316"/>
+    <text x="780" y="324" text-anchor="middle" font-weight="600" fill="#7C2D12">Claude</text>
+    <text x="780" y="343" text-anchor="middle" font-size="11.5" fill="#C2410C">bot de WhatsApp opcional</text>
+  </g>
+
+  <line x1="280" y1="101" x2="330" y2="101" stroke="#64748B" stroke-width="1.6" marker-start="url(#flecha)" marker-end="url(#flecha)"/>
+  <line x1="280" y1="253" x2="330" y2="177" stroke="#64748B" stroke-width="1.6" marker-start="url(#flecha)" marker-end="url(#flecha)"/>
+  <line x1="590" y1="177" x2="660" y2="101" stroke="#64748B" stroke-width="1.6" marker-start="url(#flecha)" marker-end="url(#flecha)"/>
+  <line x1="590" y1="329" x2="660" y2="177" stroke="#64748B" stroke-width="1.6" marker-end="url(#flecha)"/>
+  <line x1="590" y1="329" x2="660" y2="253" stroke="#64748B" stroke-width="1.6" marker-end="url(#flecha)"/>
+</svg>
